@@ -1,0 +1,18 @@
+{
+  "name": "promise_learn",
+  "version": "1.0.0",
+  "description": "my promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- --timeout 4s"
+  },
+  "author": "cjj",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.1.2",
+    "mochawesome": "^1.5.3",
+    "istanbul": "^0.4.5"
+  }
+}
